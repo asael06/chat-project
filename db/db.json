@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "name": "Asael Barajas",
+      "lastMessage": "holi"
+    },
+    {
+      "userId": 2,
+      "name": "Gerson Martínez",
+      "lastMessage": "holi"
+    },
+    {
+      "userId": 3,
+      "name": "Asael Barajas",
+      "lastMessage": "holi"
+    },
+    {
+      "userId": 4,
+      "name": "Asael Barajas",
+      "lastMessage": "holi"
+    }
+  ],
+  "messages": {
+    "2": [
+      {
+        "sentBy": 2,
+        "message": "holi",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "Cómo estás?",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 2,
+        "message": "jsjsjsjsadlkj xD",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 2,
+        "message": "Wenas",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "jsjsjsjs",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      }
+    ],
+    "3": [
+      {
+        "sentBy": 3,
+        "message": "holi",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "Cómo estás?",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 3,
+        "message": "jsjsjsjsadlkj xD",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 3,
+        "message": "Wenas",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "jsjsjsjsaaaaaaa",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      }
+    ],
+    "4": [
+      {
+        "sentBy": 4,
+        "message": "holi",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "Cómo estás?",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 4,
+        "message": "jsjsjsjsadlkj xD",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 4,
+        "message": "Wenas",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      },
+      {
+        "sentBy": 1,
+        "message": "jsjsjsjsqqqqqq asldjf alsdfj asdlñkf jasdfl kasdflñkasjd fas lkjasdflaks jdflaksdjf alsdkjf asldkfjaslñdkf asdlkfj asldkjf ",
+        "read": false,
+        "dateTime": "2023-09-11 21:19:50"
+      }
+    ]
+  }
+}
