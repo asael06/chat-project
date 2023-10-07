@@ -1,6 +1,11 @@
 import "@/styles/globals.scss";
-import { Chat } from "@/components/Chat/Chat";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="main-container">
+      <div className="chat-container">
+        <Component {...pageProps} />;
+      </div>
+    </div>
+  );
 }

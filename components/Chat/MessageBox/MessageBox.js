@@ -1,15 +1,18 @@
 import { Container } from "./styles";
-import chatBackground from "@/assets/images/chat-background.jpg";
-import Image from "next/image";
 import { MessageItem } from "./MessageItem";
+import { useEffect, useRef } from "react";
 
 export const MessageBox = ({ messages = [] }) => {
+  const scrollRef = useRef();
+  useEffect(() => {
+    scrollRef.current?.scrollTo(0, scrollRef.current.scrollHeight);
+  }, [messages]);
+
   return (
-    <Container>
-      <Image src={chatBackground} layout="fill" alt="chat-background-image" />
+    <Container ref={scrollRef}>
       <div className="messages-list">
         {messages.map(({ message, sentBy }, i) => (
-          <MessageItem key={i} message={message} userId={sentBy} />
+          <MessageItem key={i} message={message} userId={sentBy} autoFocus />
         ))}
       </div>
     </Container>

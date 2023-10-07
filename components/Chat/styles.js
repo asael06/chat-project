@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
 
   .chat-list {
-    width: 300px;
+    width: 200px;
   }
 
   .chat-box {
@@ -24,6 +24,14 @@ export const Container = styled.div`
       flex: 1;
       display: flex;
       flex-direction: column;
+      position: relative;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+      }
     }
   }
 `;

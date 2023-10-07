@@ -28,5 +28,6 @@ export const Container = styled.div`
     padding-left: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    width: 80%;
   }
 `;

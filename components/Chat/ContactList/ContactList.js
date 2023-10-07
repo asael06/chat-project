@@ -7,7 +7,7 @@ export const ContactList = ({ userList = [], user = {}, setUserSelected }) => {
     <Container>
       {userList?.map(
         (usr) =>
-          usr.userId !== user.userId && (
+          usr.userId !== user?.userId && (
             <UserInfo
               key={usr.userId}
               user={usr}

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import chatBackground from "@/assets/images/chat-background.webp";
+//import chatBackground from "@/assets/images/chat-background.webp";
+import back from "../../../assets/images/chat-background.jpg";
 import { Color, Fonts } from "@/styles/utils";
 
 export const Container = styled.div`
@@ -10,12 +11,7 @@ export const Container = styled.div`
   flex-direction: column;
   position: relative;
   padding: 20px;
-
-  img {
-    position: absolute;
-    object-fit: cover;
-    z-index: -1;
-  }
+  overflow-y: auto;
 `;
 
 export const MessageContainer = styled.div`
@@ -28,14 +24,16 @@ export const MessageContainer = styled.div`
     font-family: ${Fonts.dosisVariable};
     font-weight: 600;
     display: inline-block;
-    background-color: ${Color.fontColor};
+    background-color: ${Color.grayColor};
     height: fit-content;
     max-width: 70%;
+    color: ${Color.fontColor};
   }
 
   &.own-message {
     flex-direction: row-reverse;
     p {
+      color: ${Color.grayColor};
       background-color: ${Color.mainYellor};
     }
 
